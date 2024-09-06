@@ -10,9 +10,9 @@
 </head>
 <body>
  <form>
-  <div class="form">
+  <div class="form ">
     <div class="container">
-      <div class="row main-section g-4 d-flex p-4">
+      <div class="row main-section g-4 d-flex p-1">
         <div class=" col-12 col-md-12 col-lg-6 col-xl-6 ">
           <div class="container rounded-4 bg-white p-4 g-4">
             <h2>Basic Details</h2>
@@ -119,15 +119,15 @@
                 <p class="warning_msg text-wrap fw-semibold ">Sample warning messages - alert</p>
                 <p class="warning-message warning_msg text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor congue.</p>
             </div>
-            <div class="row9 d-flex  justify-content-center gap-4 flex-wrap ">
-              <div class="col-12 col-md-12 col-lg-12 col-xl-6">
+            <div class="row9 d-flex  justify-content-center gap-4 flex-wrap my-4 ">
+              <div class="col-12 col-md col-lg col-xl-5">
                 <label for="height">Height <span>*</span></label><br>
                 <div class="align-items-center d-flex gap-2">
                     <input class="w-74" type="range" value="24" min="1" max="200" oninput="this.nextElementSibling.value = this.value+' Cm'"required>
                     <output class="btn border-dark-subtle rounded-4">24Cm</output>
                 </div>
               </div>
-                <div class="col-12 col-md-12  col-lg-12  col-xl">
+                <div class="col-12 col-md  col-lg  col-xl">
                   <label for="weight">Weight <span>*</span></label><br>
                   <div class="align-items-center d-flex gap-2">
                       <input class="w-74" type="range" value="24" min="1" max="150" oninput="this.nextElementSibling.value = this.value + ' Kg' "required>
@@ -136,14 +136,14 @@
               </div>
             </div>
 
-            <div class="row10 d-flex flex-wrap my-4 gap-4 p-3 ">
-              <div class="col-12 col-md-4 col-xl-4">
+            <div class="row10 d-flex flex-wrap my-4 gap-4  ">
+              <div class="col-12 col-md-5 col-xl-5">
                 <label for="color">Choose color <span>*</span></label>
-                <input type="color" class="form-control form-control-color border-dark-subtle p-2 w-100 rounded-4 "value="#ffe100" id="add"required>
+                <input type="color" class="form-control form-control-color border-dark-subtle p-2 w-100 rounded-4 "value="#563d7c" id="add"required>
               </div>
-              <div class="col-12 col-md-6 col-lg-6 col-xl-6 my-3">
+              <div class="col-12 col-md-6 col-lg- col-xl- my-2">
                 <label for="temp">Choose Templates <span>*</span></label><br>
-                <div class="col-xl d-flex gap-3 align-items-center ">
+                <div class="col-xl d-flex gap-2 align-items-center my-1">
                   <div class=" col-xl">
                     <input class="form-check-input border-dark-subtle" type="checkbox" value="" id="flexCheckChecked" required>
                     <label class="form-check-label" for="flexCheckChecked">Template1</label>
@@ -174,7 +174,7 @@
               </div>
             </div>
 
-            <div class="row13 my-4 ">
+            <div class="row13 my-4 mt-5 ">
               <div class="col-xl-12">
                 <input type="checkbox" class="form-check-input border-dark-subtle" id="exampleCheck1"required>
                 <label class="form-check-label" for="exampleCheck1">I Accept Terms & Conditions</label>
